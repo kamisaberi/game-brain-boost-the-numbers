@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33b5e5"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.parsveda.brainboost.activity.MenuActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnPlayNormal"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:background="@drawable/button_circle_white"
+            android:text="NORMAL"
+
+            android:textColor="@color/mid_blue"
+            android:textSize="55sp"
+            />
+
+
+        <Button
+            android:id="@+id/btnPlayComplex"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_circle_white"
+            android:text="COMPLEX"
+            android:textColor="@color/dark_red"
+            android:textSize="55sp"
+            />
+
+
+        <Button
+            android:id="@+id/btnPlayReverse"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_circle_white"
+
+            android:text="REVERSE"
+            android:textColor="@color/dark_teal"
+            android:textSize="55sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="76sp"
+        />
+
+
+</RelativeLayout>
